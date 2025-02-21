@@ -5,6 +5,7 @@ WORKDIR /app
 
 # Install Git
 RUN apk add --no-cache git
+RUN apk add --no-cache curl 
 
 RUN npm install -g pnpm@latest-10
 
